@@ -3,21 +3,23 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+   <div className="portfolio-container">
+      <div className="portfolio-card">
+        <h1 className="name">Raghuveer</h1>
+        <p className="education">
+          Completed Engineering in Information Technology from MVSR.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="details">
+          <p>
+            I love <strong>writing</strong>, <strong>content creation</strong>, 
+            and exploring <strong>business & entrepreneurship</strong>.
+          </p>
+          <p>
+            Worked for <strong>6 months</strong> at 
+            <span className="company"> Energ Solutions Pvt Ltd</span>.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
